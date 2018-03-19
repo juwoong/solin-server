@@ -1,0 +1,18 @@
+{
+  "key" : {
+    "accessTokenKey": "82be0c87190abc5aaca0b4bc59cb74358ae173da6229456c7c31b18a61982c41"
+  },
+  "status" : {
+      "WRONG_REQUEST" : {"status" : 400, "msg" : "잘못된 요청입니다."},
+      "SERVER_ERROR" : {"status" : 500, "msg" : "서버 오류가 발생했습니다. 다시 시도해 주세요."},
+      "NOT_DEVELOPED" : {"status" : 501, "msg" : "구현되지 않았습니다."}
+  },
+  "endpoint" : "http://thedeblur.com:4445/",
+  "rabbitmq" : {
+      "url" : "amqp://localhost",
+      "channel" : "nlp"
+  },
+  "gcm" : {
+    "api_key" : "AIzaSyAwqEkdAZ0hKLUj9aC-88j3isVgqIJAN1o"
+  }
+}

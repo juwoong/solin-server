@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>SOLIN</title></head>
+<body>
+<script>
+    document.href='%s';
+    var start = new Date;
+    var isIOS = navigator.userAgent.indexOf('iPad') != -1 || navigator.userAgent.indexOf('iPhone') != -1;
+    var isAndroid = navigator.userAgent.indexOf('Android') != -1;
+    if (isIOS) {
+        alert("아직 iOS 버전이 준비되지 않았습니다! iOS 사용자분들은 조금만 기다려주세요 :)");
+    } else if (!isAndroid) {
+        alert("초대장 링크는 모바일에서만 확인 가능합니다!");
+    }
+    else setTimeout(function() {
+            if (new Date - start < 2000)
+                document.href='https://play.google.com/store/apps/details?id=com.route66.solin%s';
+        }, 1500);
+</script>
+</body>
+</html>

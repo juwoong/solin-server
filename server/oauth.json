@@ -1,0 +1,13 @@
+{
+  "facebook" : {
+    "FACEBOOK_APP_ID" : "1677480065804511",
+    "FACEBOOK_APP_SECRET" : "380282fcdb66857480a519845b338401",
+    "FACEBOOK_APP_TOKEN" : "1677480065804511|6QDBTvN0vH5EB--CrPTCxE1kjHI",
+    "callback" : "http://thedeblur.com:4444/auth/facebook"
+  },
+  "kakao" : {
+
+  }
+}
+
+
